@@ -1,5 +1,8 @@
 package com.fil.entitiy;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Order {
 	private int orderId;
 	private int tableNo;

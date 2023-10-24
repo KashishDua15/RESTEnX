@@ -1,6 +1,9 @@
 package com.fil.entitiy;
 
-public class Resturant {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Restaurant {
 
 	private String name;
 	private String area;
@@ -84,7 +87,7 @@ public class Resturant {
 		this.rating = rating;
 	}
 
-	public Resturant(String name, String area, String city, String pincode, int totalSeats, int availableSeats,
+	public Restaurant(String name, String area, String city, String pincode, int totalSeats, int availableSeats,
 			int mealForTwo, Menu menu, int rating) {
 		super();
 		this.name = name;
@@ -98,7 +101,7 @@ public class Resturant {
 		this.rating = rating;
 	}
 
-	public Resturant() {
+	public Restaurant() {
 		super();
 		// TODO Auto-generated constructor stub
 	}

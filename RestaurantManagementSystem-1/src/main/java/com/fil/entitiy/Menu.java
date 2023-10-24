@@ -1,5 +1,8 @@
 package com.fil.entitiy;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Menu {
 	private String starters;
 	private  String mainCourse;
