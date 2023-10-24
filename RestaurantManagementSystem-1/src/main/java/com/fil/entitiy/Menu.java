@@ -1,4 +1,4 @@
-package com.fil.restaurantentities;
+package com.fil.entitiy;
 
 public class Menu {
 	private String starters;
